@@ -31,7 +31,6 @@ df.head()
 def get_image_name(file_path):
     # On Windows: filePath.split("\\")[-1]
     # On Linux: filePath.split("/")[-1]
-
     return file_path.split("/")[-1]
 
 columns = ['center','left','right','steering','throttle','brake','speed']
